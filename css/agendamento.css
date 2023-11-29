@@ -1,0 +1,44 @@
+.formAgendamento {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o formulário */
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f4edf2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.formAgendamento h2 {
+    color: rgb(12, 12, 12);
+}
+
+.formAgendamento form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formAgendamento label {
+    margin-top: 10px;
+}
+
+.formAgendamento input,
+.formAgendamento textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formAgendamento input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formAgendamento input[type="submit"]:hover {
+    background-color: #45a049;
+}

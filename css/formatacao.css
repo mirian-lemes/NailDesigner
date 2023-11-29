@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #f4edf2; 
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.cabecalho,
+.menu,
+#servicosContainer,
+#listaServicos,
+.contatosContainer,
+.rodape {
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imagens/icones/fundo3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cabecalho img {
+    justify-content: center;
+    max-width: 300px; /* Ajuste o tamanho máximo do logo conforme necessário */
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+}
+
+#servicosContainer {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#listaServicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#listaServicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaServicos ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+#listaServicos ul li a {
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+}
+
+#listaServicos ul li a img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.contatosContainer {
+    justify-content: center;
+    padding: 10px 2%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+}
+
+.contatosContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contatosContainer ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.contatosContainer img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.rodape {
+    align-items: center;
+    padding: 10px 2%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
