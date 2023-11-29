@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Nail Designer
+        </title>
+        <link rel="stylesheet" href="css/formatacao.css">
+        <link rel="stylesheet" href="css/agendamento.css">
+    </head>
+    <body>
+        
+        <div class="cabecalho">
+            <img src="imagens/icones/logo2.png" alt="Logo do Salão de Unhas Encantadas">
+        </div>
+
+        <div class="menuContainer">
+            <nav class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="sobre.html">Sobre mim</a></li>
+                    <li><a href="protifolio.html">Portifólio</a></li>
+                    <li><a href="agendamento.html">Agendamentos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="conteudoContainer">
+            <div class="formAgendamento">
+                <h2>Solicitar Agendamento</h2>
+                <form action="mailto:seu-email@dominio.com" method="post" enctype="text/plain">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+            
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+            
+                    <label for="data">Data desejada:</label>
+                    <input type="date" id="data" name="data" required>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="contatosContainer">
+                <h3>Entre em contato</h3>
+                <p>Entre em contato conosco através dos seguintes meios:</p>
+                <ul>
+                    <li><a href="sobre_mim.html"><img src="imagens/icones/whats.png"></a></li>
+                    <li><a href="sobre_mim.html"><img src="imagens/icones/insta.png"></a></li>
+                </ul>
+            </div>
+            <div class="rodape">
+                <p>&copy; 2023 Rita do Carmo - Todos os direitos reservados</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
